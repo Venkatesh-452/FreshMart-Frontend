@@ -1,0 +1,1 @@
+export default function ProductCard({product,setCart}){return <article className="product-card"><div className="product-image">{product.image}</div><h3>{product.name}</h3><p>{product.category}</p><strong>₹{product.price}/{product.unit}</strong><button onClick={()=>setCart(product)}>Add to Cart</button></article>}
