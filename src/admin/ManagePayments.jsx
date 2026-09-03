@@ -1,0 +1,1 @@
+export default function ManagePayments(){return <div className="admin-card"><h2>Manage Payments</h2><p>View payment information and transactions.</p></div>}
