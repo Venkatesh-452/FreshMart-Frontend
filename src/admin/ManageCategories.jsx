@@ -1,0 +1,1 @@
+export default function ManageCategories(){return <div className="admin-card"><h2>Manage Categories</h2><ul><li>Fresh Vegetables</li><li>Leafy Vegetables</li><li>Root Vegetables</li><li>Organic</li></ul></div>}
