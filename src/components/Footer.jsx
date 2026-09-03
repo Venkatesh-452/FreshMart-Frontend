@@ -1,0 +1,1 @@
+export default function Footer(){return <footer>© 2026 FreshMart. Fresh vegetables delivered to your door.</footer>}
