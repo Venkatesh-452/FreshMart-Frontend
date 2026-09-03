@@ -1,0 +1,1 @@
+export default function ManageUsers(){return <div className="admin-card"><h2>Manage Users</h2><table className="table"><tbody><tr><td>Rahul</td><td>Customer</td></tr><tr><td>Priya</td><td>Customer</td></tr></tbody></table></div>}
