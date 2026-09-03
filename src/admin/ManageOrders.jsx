@@ -1,0 +1,1 @@
+export default function ManageOrders(){return <div className="admin-card"><h2>Manage Orders</h2><p>Track and update customer orders.</p></div>}
