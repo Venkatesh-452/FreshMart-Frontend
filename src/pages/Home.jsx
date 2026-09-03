@@ -1,0 +1,4 @@
+import {useNavigate} from 'react-router-dom'
+import products from '../data/product'
+import ProductCard from '../components/ProductCard'
+export default function Home({setCart}){const navigate=useNavigate();return <main><section className="hero"><p>Fresh • Healthy • Delivered</p><h1>Fresh Vegetables Delivered to Your Door</h1><p>Shop fresh and quality vegetables at affordable prices.</p><button onClick={()=>navigate('/products')}>Shop Now</button></section><section className="features"><div className="feature-card">🥬<h3>Fresh Products</h3><p>Quality vegetables selected for you.</p></div><div className="feature-card">🚚<h3>Fast Delivery</h3><p>Get your order delivered to your doorstep.</p></div><div className="feature-card">💰<h3>Best Prices</h3><p>Fresh vegetables at affordable prices.</p></div></section><section className="products-grid">{products.map(p=><ProductCard key={p.id} product={p} setCart={setCart}/>)}</section></main>}
